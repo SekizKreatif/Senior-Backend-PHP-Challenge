@@ -9,11 +9,13 @@ Bu paket temiz kurduğumuz yazılıma asgari olarak şu yapı ve tabloları ekle
 ### Jobs
 
 id (int)
+
 JobId char(16)
 
 ### SearchData
 
 id
+
 name
 
 
