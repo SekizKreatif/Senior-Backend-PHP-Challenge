@@ -16,6 +16,8 @@ JobId char(16)
 id
 name
 
+
+
 ## CLASSES
 
 ### Product Search
@@ -32,6 +34,7 @@ name
 
 
 
+
 ## Kurallar
 
 * Her bir PHP dosyasında farklı yapılarda ürün listesi dataları yer alacak.
@@ -39,6 +42,8 @@ name
 * Her bir ürün listesi için curl ile veri çekilecek ve her PHP dosyasında 5-9 sn arası sleep() yer alacak.
 
 * Ürün aramaları 5 dosya ile aynı anda başlayacak ve arama başlamadan JobId üretilecek
+
+* SearchData için sorgu yapıldığında get işlemi tamamlananlar sonuç olarak dönülebilecek.
 
 bu değişiklikleri yapmak için yukarıda listelenen şemaya **bazı kolonlar eklemeniz** ve Eloquent Modellerine **bazı methodlar eklemeniz gerekecek**
 
